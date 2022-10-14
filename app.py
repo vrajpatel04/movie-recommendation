@@ -44,7 +44,7 @@ def fetch_poster(movie_id):
 st.title('Movie Recommender System')
 
 selected_movie_name = st.selectbox(
-    'How would you like to be contacted?',
+    'Select a movie',
     movies['title'].values)
 
 if st.button("Recommend"):
